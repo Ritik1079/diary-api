@@ -11,7 +11,6 @@ import {
 const router = express.Router();
 router.use(requireAuth);
 
-
 router.get('/', getAllPosts);
 router.get('/:id', getPost);
 router.post('/', createPost);
